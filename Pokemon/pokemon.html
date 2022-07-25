@@ -5,11 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon</title>
+
 </head>
     <h1>Pokemon ! 🔥🌊🌱</h1>
-    <p>
-        <button>Fuego 🔥</button>
-    </p>
+    <section id="selectPokemon">
+        <h2>Elije a tu mascota: </h2>
+            <input type="radio" name="Pokemon" id="charmander">
+            <label for="charmander">Charmander🔥</label>
+            <input type="radio" name="Pokemon" id="squirtle"/>
+            <label for="squirtle">Squirtle🌊</label>
+            <input type="radio" name="Pokemon" id="bulbasaur"/>
+            <label for="bulbasaur">Bulbasaur🌱</label>
+
+
+            <button id="buttonPokemon">Seleccionar</button>
+            <!-- Langostelvis 🌊🔥
+            Tucapalma Agua Planta
+            Pydos Planta fuego  -->
+    </section>
+
+    <section id="selectAtack">
+        <h2>Elije tu ataque: </h2>
+        <p><span id="pokemonPlayer"></span></p>
+        <p><span id="pokemonEnemy"></span></p>
+        <p>
+            <button id="buttonFuego">Fuego 🔥</button>
+            <button id="buttonAgua">Agua 🌊</button>
+            <button id="buttonPlanta">Planta 🌱</button>
+        </p>
+    </section>
+
+    <section id="mensajes">
+        <p>Tu mascota ataco con FUEGO, la mascota del enemigo ataco con TIERRA - GANASTE! </p>
+    </section>
+
+    <section id="reiniciar">
+        <button id="buttonReiniciar">Reiniciar</button>
+    </section>
+
+    <script src="./main.js"></script>
 <body>
 </body>
 </html>

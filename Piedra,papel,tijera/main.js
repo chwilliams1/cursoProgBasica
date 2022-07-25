@@ -5,7 +5,7 @@ let triunfos = 0;
 let perdidas = 0;
 
 function aleatorio(min,max){
-    return Math.floor(Math.random()*(max - min  +1)+1);
+    return Math.floor(Math.random()*(max - min  +1)+min);
 };
 function seleccionJugador(player){
     if (player == 1){
