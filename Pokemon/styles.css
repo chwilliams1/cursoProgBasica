@@ -1,0 +1,29 @@
+.titulo {
+    color:lightcoral;
+    display: block;
+    text-align: center;
+
+}
+
+#selectPokemon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#selectAtack {
+    text-align: center;
+}
+
+#mensajes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#reiniciar {
+    display:flex;
+    justify-content: center;
+}
+
